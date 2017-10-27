@@ -1,0 +1,8 @@
+{
+  "description": "Golang example function",
+  "runtime": "golang",
+  "hooks": {
+    "build": "GOOS=linux GOARCH=amd64 go build -o main main.go",
+    "clean": "rm -f main"
+  }
+}

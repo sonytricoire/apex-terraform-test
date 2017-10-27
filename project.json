@@ -1,0 +1,10 @@
+{
+  "name": "apex-test",
+  "description": "Test project to validate APEX+Terraform",
+  "memory": 128,
+  "timeout": 5,
+  "profile": "jcd-ppr",
+  "role": "arn:aws:iam::801774479614:role/apex-test_lambda_function",
+  "environment": {},
+  "defaultEnvironment": "ppr"
+}
